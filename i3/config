@@ -9,6 +9,8 @@ bindsym $mod+o exec --no-startup-id /home/arvinder/.config/scripts/lock
 #bindsym $mod+e exec --no-startup-id emacs
 bindsym $mod+u workspace back_and_forth
 bindsym Print exec --no-startup-id flameshot full -p ~/Pictures 
+bindsym $mod+m move scratchpad
+bindsym $mod+Shift+m  scratchpad show
 
 #startup apps
 exec  --no-startup-id picom --experimental-backends
