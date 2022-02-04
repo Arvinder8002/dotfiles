@@ -94,6 +94,7 @@ bindsym $mod+Shift+c kill
 
 # menu (rofi)
 bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+i exec --no-startup-id rofi -show emoji -modi emoji
 
 # change focus
 bindsym $mod+h focus left
